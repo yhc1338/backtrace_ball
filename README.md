@@ -12,6 +12,6 @@ The forth parameter in the function is to predict the next situation.
 
 I surpose that increase the parameter will solve the issue as it will predicet the situation that the object can not pass the forth barrier.
 
-But this operation increases the depth of the prediction exponentially, because it will increase the depth of the prediction by geometrically multiplying.
+But this operation will increases the cost of computing greatly, because it will increase the depth of the prediction exponentially.
 
 And I did not verify the assumption.
