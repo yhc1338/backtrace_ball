@@ -10,7 +10,7 @@ I surpose the reason of the issue is that there are some issues in "object=objmo
 
 The forth parameter in the function is to predict the next situation.
 
-I surpose that increase the parameter will solve the issue as it will predicet the situation that the object will not pass the forth barrier.
+I surpose that increase the parameter will solve the issue as it will predicet the situation that the object can not pass the forth barrier.
 
 But this operation increases the depth of the prediction exponentially, because it will increate the depth of the prediction by geometrically multiplying.
 
