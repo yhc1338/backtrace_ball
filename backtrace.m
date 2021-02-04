@@ -5,7 +5,7 @@ if step==p
     return
 end
 for i=1:5
-    if sum(trace(1:end-1))>=20
+    if sum(trace(1:end-1))==inf
         object.s=object.s+d(i,:).*object.v*t;
         ball=ballmove(ball,t);
         if estimate(object,ball,t)==0
