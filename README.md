@@ -25,7 +25,7 @@ Change the value "5" to "10". Of couse, the fact that I can not get the result h
 
 To solve the issue, I revise the function "backtrace.m". Add a condition in backtrace loop. 
 
-In the current code, the object will move at once when a no worry road will find once.
+In the current code, the object will move at once when a no worry road will be found once.
 
 It means that it is no neccessary to compute all of the road. It will become fast as soon as possible, which is the reason the the value can be changed from "5" to "10".
 
