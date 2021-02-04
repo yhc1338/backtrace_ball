@@ -10,7 +10,7 @@ ball(3)=create(1,[9,0],[0,3]);
 ball(4)=create(1,[12,0],[0,-3]);
 while(1)
     ball=ballmove(ball,dt);
-    object=objmove(object,ball,dt,5);
+    object=objmove(object,ball,dt,10);
     plotball(ball)
     hold on
     plotball(object)
